@@ -6,7 +6,7 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Nashik, Maharashtra, India',
     scale: 'C'
   },
   clock: {
@@ -19,7 +19,8 @@ const CONFIG = new Config({
       i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
-      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
+      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
+      r: ['https://yandex.com/search/?', 'Reddit']
     }
   },
   keybindings: {
@@ -174,13 +175,13 @@ const CONFIG = new Config({
           name: 'blogs',
           links: [
             {
-              name: 'fasterthanli',
-              url: 'https://fasterthanli.me/articles',
+              name: 'SnapShot',
+              url: 'https://secret.kawaiidoro.com',
               icon: 'anchor'
             },
             {
-              name: 'dev.to',
-              url: 'https://dev.to'
+              name: 'KawaiiDoro',
+              url: 'https://blog.kawaiidoro.com'
             },
             {
               name: 'mataroa.blog',

@@ -7,7 +7,7 @@ class Config {
       refreshIn: 15
     },
     temperature: {
-      location: 'New York',
+      location: 'Nashik, Maharashtra, India',
       scale: 'C'
     },
     clock: {

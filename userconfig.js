@@ -20,12 +20,16 @@ const CONFIG = new Config({
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
-      r: ['https://yandex.com/search/?', 'Reddit']
+      r: ['https://yandex.com/search/?', 'Yandex']
     }
   },
   keybindings: {
     "t": 'todo-list',
-    "s": 'search-bar'
+    "s": 'search-bar',
+    "1": 'boards',
+    "2": 'music',
+    "3": 'tech',
+    "4": 'CHILL',
   },
   disabled: [],
   openLastVisitedTab: false,
@@ -205,6 +209,81 @@ const CONFIG = new Config({
             }
           ]
         }
+      ]
+    },
+    {
+      name: 'CHILL',
+      background_url: 'src/img/banners/bg-4.gif',
+      categories: [{
+        name: 'MASTER',
+        links: [
+          {
+            url: 'https://4chan.org/wsg/',
+            name: '/wsg/'
+          },
+          {
+            name: '/out/',
+            url: 'https://4chan.org/out',
+            icon: 'leaf',
+            icon_color: '#64876d'
+          },
+          {
+            name: '/lit/',
+            url: 'https://4chan.org/lit/',
+            icon: 'book'
+          },
+          {
+            name: '/v/',
+            url: 'https://4chan.org/v/',
+            icon: 'device-gamepad',
+            icon_color: '#8b647b'
+          },
+          {
+            name: '/p/',
+            url: 'https://4chan.org/p/',
+            icon: 'camera'
+          }
+        ]
+      },
+      {
+        name: 'NotComfy',
+        links: [
+          {
+            name: '/lounge/',
+            url: 'https://sushigirl.us/lounge/catalog.html'
+          },
+          {
+            name: '/comfy/',
+            url: 'https://anon.cafe/comfy/catalog.html'
+          }
+        ]
+      },
+      {
+        name: 'Chaman',
+        links: [
+          {
+            name: '/g/',
+            url: 'https://4chan.org/g/',
+          },
+          {
+            name: '/Δ/',
+            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+          },
+          {
+            name: '/λ/',
+            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
+          },
+          {
+            name: '/sec/',
+            url: 'https://www.lainchan.org/sec/catalog.html'
+          },
+          {
+            name: '/prog/',
+            url: 'https://boards.420chan.org/prog/',
+            icon: 'code'
+          }
+        ]
+      }
       ]
     }]
 });

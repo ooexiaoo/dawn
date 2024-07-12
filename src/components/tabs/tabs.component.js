@@ -142,6 +142,10 @@ class Tabs extends Component {
           --flavour: #5b52e4;
       }
 
+      .categories ul:nth-child(4) {
+          --flavour: #E4D00A;
+      }
+
       .categories ul .links {
           box-shadow: inset -1px 0 var(--flavour);
       }

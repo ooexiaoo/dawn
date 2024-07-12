@@ -115,6 +115,11 @@ class Statusbar extends Component {
           --flavour: #5b52e4;
       }
 
+      #tabs ul li[active]:nth-child(4) ~ li:last-child {
+          --flavour: #E4D00A;
+      }
+
+
       .widgets {
           right: 0;
           margin: auto;

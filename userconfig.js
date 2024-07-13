@@ -32,78 +32,95 @@ const CONFIG = new Config({
     "4": 'CHILL',
   },
   disabled: [],
-  openLastVisitedTab: false,
+  openLastVisitedTab: true,
   tabs: [
     {
-      name: 'boards',
+      name: 'QUICK',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
-        name: 'fun',
+        name: 'SnapShot',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://secret.kawaiidoro.com',
+            name: 'Home',
+            icon: 'home',
+            icon_color: '#ff4000'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
+            name: 'Added Notes',
+            url: 'https://secret.kawaiidoro.com/000-digital-garden/recently-added-notes/',
             icon: 'leaf',
-            icon_color: '#64876d'
+            icon_color: '#90ee90'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
+            name: 'Edited Notes',
+            url: 'https://secret.kawaiidoro.com/000-digital-garden/recently-edited-notes/',
+            icon: 'book',
+            icon_color: '#ffa500'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
+            name: 'Anime 2024',
+            url: 'https://secret.kawaiidoro.com/media-db/anime-list-2024/',
+            icon: 'brand-funimation',
+            icon_color: '#ff0000'
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
+            name: 'Movies 2024',
+            url: 'https://secret.kawaiidoro.com/movie-list-2024/',
+            icon: 'movie',
+            icon_color: '#29a6ec'
           }
         ]
       },
       {
-        name: 'Comfy',
+        name: 'YouTube',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: 'Varun',
+            url: 'https://www.youtube.com/@grxaaa',
+            icon: 'brand-youtube',
+            icon_color: '#cd201f'
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
+            name: 'Access 01',
+            url: 'https://www.youtube.com/@ACCESSZERO1',
+            icon: 'brand-youtube',
+            icon_color: '#cd201f'
           }
         ]
       },
       {
-        name: 'Technology',
+        name: 'Quick Links',
         links: [
           {
-            name: '/g/',
-            url: 'https://4chan.org/g/',
+            name: 'GitHub',
+            url: 'https:github.com/ooexiaoo',
+            icon: 'brand-github',
+            icon_color: '#000000'
           },
           {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+            name: 'X',
+            url: 'https://x.com/exiavp',
+            icon: 'brand-x',
+            icon_color: '#ff0000'
           },
           {
-            name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
+            name: 'Pinterest',
+            url: 'https://www.pinterest.com/00EXIA00/',
+            icon: 'brand-pinterest',
+            icon_color: '#bd081c'
           },
           {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
+            name: 'WallHaven',
+            url: 'https://www.wallhaven.cc',
+            icon: 'wallpaper',
+            icon_color: '#ed008c'
           },
           {
-            name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
+            name: 'KawaiiBlog',
+            url: 'https://blog.kawaiidoro.com',
+            icon: 'article',
+            icon_color: '#ea428b'
           }
         ]
       }
@@ -149,51 +166,50 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'tech',
+      name: 'LINUX',
       background_url: 'src/img/banners/bg-3.gif',
       categories: [
         {
-          name: 'subreddits',
+          name: 'Inspirations',
           links: [
             {
-              name: 'r/startpages/',
-              url: 'https://www.reddit.com/r/startpages/'
-            },
-            {
               name: 'r/unixporn',
-              url: 'https://www.reddit.com/r/unixporn/'
+              url: 'https://www.reddit.com/r/unixporn/',
+              icon: 'cpu-2',
+              icon_color: '#9d5fc7'
             },
             {
               name: 'r/mechkbds/',
               url: 'https://www.reddit.com/r/MechanicalKeyboards/',
               icon: 'keyboard',
-              icon_color: '#a57685'
+              icon_color: '#00ffff'
             },
             {
               name: 'r/programming',
-              url: 'https://www.reddit.com/r/programming/'
+              url: 'https://www.reddit.com/r/programming/',
+              icon: 'code-circle-2',
+              icon_color: '#ffc100'
             }
           ]
         },
         {
-          name: 'blogs',
+          name: 'Quick Links',
           links: [
             {
-              name: 'SnapShot',
-              url: 'https://secret.kawaiidoro.com',
-              icon: 'anchor'
+              name: 'Arch AUR',
+              url: 'https://aur.archlinux.org/',
+              icon: 'brand-amigo',
+              icon_color: '#ed008c'
             },
             {
-              name: 'KawaiiDoro',
-              url: 'https://blog.kawaiidoro.com'
-            },
-            {
-              name: 'mataroa.blog',
-              url: 'https://collection.mataroa.blog',
+              name: 'Garuda',
+              url: 'https://forum.garudalinux.org/',
+              icon: 'device-desktop-analytics',
+              icon_color: '#ff7b95'
             }
           ]
         },
-        {
+        /* {
           name: 'misc',
           links: [
             {
@@ -208,7 +224,7 @@ const CONFIG = new Config({
               icon_color: '#977a3a'
             }
           ]
-        }
+        } */
       ]
     },
     {

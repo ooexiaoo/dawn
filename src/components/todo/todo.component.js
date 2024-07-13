@@ -223,7 +223,8 @@ class Todo extends Component {
       :host {
           --done: #37eb94;
           --todo: #ff1b91;
-          --bg: #0f0f12;
+          /* --bg: #0f0f12; */
+          --bg: rgba(0, 0, 0, 0.25);
           --task-options-reveal-time: .15s;
           --task-options-done-background: #357d5a;
           --task-options-todo-background: #84355e;

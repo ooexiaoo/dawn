@@ -48,6 +48,7 @@ class Statusbar extends Component {
       #tabs {
           width: 100%;
           height: 100%;
+          background-color: rgba(0, 0, 0, 0.25);
       }
 
       #tabs ul {
@@ -126,7 +127,8 @@ class Statusbar extends Component {
           height: 32px;
           color: #fff;
           font-size: 12px;
-          background: #1d1d21;
+          /* background: #1d1d21; */
+          background-color: rgba(0, 0, 0, 0.25);
       }
 
       .widgets:hover .edit {

@@ -80,7 +80,7 @@ class Tabs extends Component {
       status-bar {
           bottom: -70px;
           height: 32px;
-          background: #18181d;
+          background-color: rgba(0, 0, 0, 0.25);
           border-radius: 4px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
       }
@@ -115,6 +115,7 @@ class Tabs extends Component {
           overflow: hidden;
           position: relative;
           border-radius: 5px 0 0 5px;
+          background-color: rgba(0, 0, 0, 0.25);
       }
 
       .categories ul {

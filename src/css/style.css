@@ -32,13 +32,16 @@
 }
 
 :root {
-    --accent: crimson;
+    --accent: red;
     --bg: #0f0f12;
 }
 
 body {
     background-color: var(--bg);
-    background-image: url("https://w.wallhaven.cc/full/2y/wallhaven-2y5me6.png");
+    /* background-image: url("https://w.wallhaven.cc/full/2y/wallhaven-2yl6px.jpg"); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     display: flex;

@@ -114,7 +114,7 @@ const CONFIG = new Config({
             name: 'WallHaven',
             url: 'https://www.wallhaven.cc',
             icon: 'wallpaper',
-            icon_color: '#ed008c'
+            icon_color: 'gray'
           },
           {
             name: 'KawaiiBlog',
@@ -231,46 +231,72 @@ const CONFIG = new Config({
       name: 'CHILL',
       background_url: 'src/img/banners/bg-4.gif',
       categories: [{
-        name: 'MASTER',
+        name: 'Art',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://canva.com/',
+            name: 'Canva',
+            icon: 'brand-canva',
+            icon_color: '#ff0000'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
+            name: 'Image Converter',
+            url: 'https://ezgif.com/jpg-to-webp',
             icon: 'leaf',
-            icon_color: '#64876d'
+            icon_color: '#90ee90'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
+            name: 'Pixlr',
+            url: 'https://pixlr.com/express/',
+            icon: 'brand-pixlr',
+            icon_color: '#000000'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
+            name: 'ArtStation',
+            url: 'https://www.artstation.com/',
+            icon: 'brand-artstation',
+            icon_color: '#f5f5f5'
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
+            name: 'Behance',
+            url: 'https://www.behance.net',
+            icon: 'brand-behance',
+            icon_color: '#1769ff'
           }
         ]
       },
       {
-        name: 'NotComfy',
+        name: 'Shopping',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: 'Amazon',
+            url: 'https://www.amazon.com/',
+            icon: 'brand-amazon',
+            icon_color: '#ff9900'
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
+            name: 'Flipkart',
+            url: 'https://www.flipkart.com/',
+            icon: 'brand-flipkart',
+            icon_color: '#ff0000'
+          },
+          {
+            name: 'Snapdeal',
+            url: 'https://www.snapdeal.com/',
+            icon: 'brand-snapdeal',
+            icon_color: '#ff0000'
+          },
+          {
+            name: 'OLX',
+            url: 'https://www.olx.com/',
+            icon: 'brand-olx',
+            icon_color: '#ff9900'
+          },
+          {
+            name: 'Ajio',
+            url: 'https://www.ajio.com/',
+            icon: 'brand-ajio',
+            icon_color: '#ff9900'
           }
         ]
       },
